@@ -1,6 +1,7 @@
 import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
+// import style from './PieChart.module.css'
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -9,7 +10,7 @@ export const data = {
   datasets: [
     {
       label: '# of Votes',
-      data: [14, 31, 51],
+      data: [14, 31, 55],
       backgroundColor: [
         'rgba(238, 132, 132, 1)',
         'rgba(246, 220, 125, 1)',
@@ -25,6 +26,6 @@ export const data = {
   ],
 };
 
-export  function PieChart() {
-  return <Pie data={data} />;
+export  function PieChart({className}) {
+  return <Pie className={className} data={data} />;
 }
