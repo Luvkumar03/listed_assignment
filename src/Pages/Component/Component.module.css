@@ -1,6 +1,6 @@
 
   .Section {
-      border: 1px solid red;
+      border: none;
       display: flex;
       box-sizing: border-box;
       background-color: rgba(245, 245, 245, 1);
@@ -10,7 +10,7 @@
     .left {
       background-color: black;
       height: 95%;
-      border: 1px solid red;
+      border: none;
       margin: 1rem 0rem 1rem 1rem;
       border-radius: 1.875rem;
       color: white;
@@ -24,7 +24,7 @@
       width: 17rem;
     }
        
-    .Lboard {
+    .leftsec {
       margin-bottom: 1.5rem;
       font-size: 1.5em;
       font-family: "Montserrat";
@@ -32,18 +32,18 @@
       font-weight: 700;
     }
     
-    .Lmid h4 {
+    .midSection h4 {
       font-size: 1em;
       font-family: "Montserrat";
     }
     
-    .Lmid h6 {
+    .midSection h6 {
       font-size: 1em;
       font-weight: 400;
       font-family: "Montserrat";
     }
     
-    .Lmid {
+    .midSection {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -88,15 +88,14 @@
       font-size: 1.2em;
     }
     
-    .avatarSection {
+    .profileSection {
       display: flex;
       align-items: center;
-      /* border: 1px solid blueviolet; */
       width: 17.375rem;
       justify-content: space-between;
     }
     
-    .avatar {
+    .profile {
       width: 2.2rem;
       border-radius: 50%;
     }
@@ -128,7 +127,7 @@
       outline: none;
     }
   
-    .avatarSection {
+    .profileSection {
       display: flex;
       align-items: center;
       border: 1px solid blueviolet;
@@ -164,7 +163,6 @@
     }
   
     .topCardSubSection .p{
-      /* border: 1px solid red; */
       flex: 1;
     }
   

@@ -13,24 +13,24 @@ export default function Component() {
         <div className={style.Section}>
         <div className={style.left}>
         <div className={style.menu}>
-        <h2 className={style.Lboard}>Board.</h2>
-        <div className={style.Lmid}>
+        <h2 className={style.leftsec}>Board.</h2>
+        <div className={style.midSection}>
            <FiPieChart className={style.menuIcon} />
         <h4>Dashboard</h4>
         </div>
-        <div className={style.Lmid}>
+        <div className={style.midSection}>
         <TbTags className={style.menuIcon}/>
         <h6>Transactions</h6>
         </div>
-        <div className={style.Lmid}>
+        <div className={style.midSection}>
         <TbCalendarTime className={style.menuIcon}/>
         <h6>Shedules</h6>
         </div>
-        <div className={style.Lmid}>
+        <div className={style.midSection}>
         <BiUserCircle className={style.menuIcon}/>
         <h6>Users</h6>
         </div>
-        <div className={style.Lmid}>
+        <div className={style.midSection}>
         <AiFillSetting className={style.menuIcon}/>
         <h6>Settings</h6>
         </div>
@@ -44,7 +44,7 @@ export default function Component() {
         <div className={style.dashboard}>
             <div className={style.heading}>
             <h1>Dashboard</h1>
-            <div className={style.avatarSection}>
+            <div className={style.profileSection}>
             <div className={style.searchBarSection}>
             <input placeholder='Search...'/>
             <TfiSearch className={style.searchIcon}/>
@@ -52,7 +52,7 @@ export default function Component() {
          
             <MdNotificationsNone className={style.bell}/>
       
-            <img className={style.avatar} src='https://thumbs.dreamstime.com/b/handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg' alt="avatar"/>
+            <img className={style.profile} src='https://thumbs.dreamstime.com/b/handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg' alt="profile"/>
             </div>
 
             </div>
